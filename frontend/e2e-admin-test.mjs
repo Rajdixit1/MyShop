@@ -227,7 +227,7 @@ for (const p of ['/manifest.webmanifest', '/sw.js', '/icons/icon-192.png', '/ico
   check(`${p} served`, res.status() === 200, `-> ${res.status()}`)
 }
 const manifest = await (await fetch(`${BASE}/manifest.webmanifest`)).json()
-check('manifest has app name', manifest.name.includes('Devenand'))
+check('manifest has app name', manifest.name.includes('Devanand'))
 check('manifest display is standalone', manifest.display === 'standalone')
 check('manifest has maskable icon', manifest.icons.some((i) => i.purpose === 'maskable'))
 

@@ -27,7 +27,7 @@ export default function AdminLogin() {
       <form className="login-box" onSubmit={submit}>
         <div style={{ fontSize: 34, marginBottom: 6 }}>🛒</div>
         <h2>Admin Panel</h2>
-        <p className="sub">Devenand Saw Kirana Store management</p>
+        <p className="sub">Devanand Saw Kirana Store management</p>
 
         <div className="field">
           <label htmlFor="adm-user">Username</label>

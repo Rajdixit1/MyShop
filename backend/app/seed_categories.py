@@ -1,4 +1,4 @@
-"""Grocery categories for the Devenand Saw Kirana Store."""
+"""Grocery categories for the Devanand Saw Kirana Store."""
 
 CATEGORIES = [
     ("atta-rice-daal", "Atta, Rice & Daal", "\U0001F33E", "Daily staples"),

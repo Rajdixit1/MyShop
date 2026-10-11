@@ -1,4 +1,4 @@
-# Devenand Saw Kirana Store - Grocery E-Commerce Website + Admin Panel + Installable App
+# Devanand Saw Kirana Store - Grocery E-Commerce Website + Admin Panel + Installable App
 
 Flipkart-style online grocery store (rashan dukan) built with **FastAPI** backend and **React** frontend, with a **customer login**, a full **admin panel**, and **PWA support** so the same codebase runs as a web app, Android, iOS, macOS and Windows app.
 

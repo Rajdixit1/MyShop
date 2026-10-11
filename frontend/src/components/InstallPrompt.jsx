@@ -38,7 +38,7 @@ export default function InstallPrompt() {
 
   return (
     <div className="install-banner">
-      <span>📲 Install Devenand Saw Kirana Store as an app</span>
+      <span>📲 Install Devanand Saw Kirana Store as an app</span>
       <button onClick={install}>Install</button>
       <button className="x" onClick={dismiss} aria-label="Dismiss install prompt">×</button>
     </div>

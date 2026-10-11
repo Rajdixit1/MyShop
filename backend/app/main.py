@@ -1,4 +1,4 @@
-"""Devenand Saw Kirana Store API - a Flipkart-style grocery store backend."""
+"""Devanand Saw Kirana Store API - a Flipkart-style grocery store backend."""
 
 import json
 import os
@@ -67,7 +67,7 @@ ALLOWED_IMAGE_TYPES = {
     "image/gif": ".gif",
 }
 
-app = FastAPI(title="Devenand Saw Kirana Store API", version="1.0.0", description="Grocery store backend")
+app = FastAPI(title="Devanand Saw Kirana Store API", version="1.0.0", description="Grocery store backend")
 
 app.add_middleware(
     CORSMiddleware,
@@ -592,7 +592,7 @@ def _whatsapp_message(order) -> str:
     lines = [
         f"Hi {order['customer']},",
         "",
-        f"Your Devenand Saw Kirana Store order *{order['order_no']}* is *{order['status']}*.",
+        f"Your Devanand Saw Kirana Store order *{order['order_no']}* is *{order['status']}*.",
         "",
     ]
     for item in json.loads(order["items"]):
@@ -716,7 +716,7 @@ def add_order_event(order_no: str, payload: EventCreate,
 def support_whatsapp():
     """WhatsApp link to the store's support desk with a pre-filled greeting."""
     message = (
-        "Hi Devenand Saw Kirana Store, I need help with my order. "
+        "Hi Devanand Saw Kirana Store, I need help with my order. "
         "My order number is: "
     )
     return {

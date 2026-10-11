@@ -39,7 +39,7 @@ export default function Footer() {
         <div className="footer-cols">
           <div>
             <div className="logo" style={{ marginBottom: 12 }}>
-              <span className="logo-mark">🛒</span> Devenand Saw Kirana Store
+              <span className="logo-mark">🛒</span> Devanand Saw Kirana Store
             </div>
             <p style={{ color: '#6d7f93', fontSize: 12, lineHeight: 1.7, maxWidth: 260 }}>
               Your neighbourhood kirana store, now online. Fresh groceries delivered to your
@@ -69,7 +69,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="footer-bottom">
-          © {new Date().getFullYear()} Devenand Saw Kirana Store - Demo grocery store built with FastAPI + React.
+          © {new Date().getFullYear()} Devanand Saw Kirana Store - Demo grocery store built with FastAPI + React.
         </div>
       </div>
     </footer>

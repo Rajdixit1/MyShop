@@ -6,7 +6,7 @@ import type { CapacitorConfig } from '@capacitor/cli'
  */
 const config: CapacitorConfig = {
   appId: 'com.rashandukaan.app',
-  appName: 'Devenand Saw Kirana Store',
+  appName: 'Devanand Saw Kirana Store',
   webDir: 'dist',
   bundledWebRuntime: false,
   android: {

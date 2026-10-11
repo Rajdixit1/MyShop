@@ -1,4 +1,4 @@
-/* Devenand Saw Kirana Store service worker: offline shell + cached API responses. */
+/* Devanand Saw Kirana Store service worker: offline shell + cached API responses. */
 const CACHE = 'rashan-v3'
 const PRECACHE = ['/', '/index.html', '/manifest.webmanifest', '/icons/icon-192.png']
 

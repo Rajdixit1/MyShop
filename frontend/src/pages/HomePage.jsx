@@ -83,7 +83,7 @@ export default function HomePage() {
 
         <div className="section">
           <div className="section-head">
-            <span className="section-title">Why Shop at Devenand Saw Kirana Store</span>
+            <span className="section-title">Why Shop at Devanand Saw Kirana Store</span>
           </div>
           <div className="grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))' }}>
             {[

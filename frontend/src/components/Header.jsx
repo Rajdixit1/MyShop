@@ -18,7 +18,7 @@ export default function Header() {
       <div className="container header-row">
         <Link to="/" className="logo">
           <span className="logo-mark">🛒</span>
-          Devenand Saw Kirana Store
+          Devanand Saw Kirana Store
           <sup>Explore+</sup>
         </Link>
 
