@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.log
+*.err
+__pycache__/
+*.pyc
+backend/grocery.db
+frontend/shot_*.png
+android/
+ios/

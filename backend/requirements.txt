@@ -1,0 +1,9 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+# required by FastAPI for multipart file uploads (product photos)
+python-multipart==0.0.20
+# Postgres driver, used only when DATABASE_URL is set (e.g. on Render)
+psycopg[binary]==3.2.3
+# serves the FastAPI ASGI app on WSGI-only hosts such as PythonAnywhere
+a2wsgi==1.10.10
